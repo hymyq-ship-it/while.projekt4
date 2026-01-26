@@ -7,7 +7,7 @@ if lukustr!= "":
     onkotyhjä= False
 while lukustr!="":
     if lukuint >suurin:
-        suurin = lukuint
+        suurin = lukustr
     if lukuint <pienin:
         pienin = lukuint
 

@@ -6,11 +6,11 @@
 
 salasana= "sala"
 käyttäjätynnys = "huma"
-yritys= 0
+yritys= 1
 käyttäjä= input("Anna käyttäjätunnuksen: ")
 salasana= input("Anna salasana: ")
 
-while (käyttäjätynnys != käyttäjä or salasana != salasana) and yritys <4:
+while (käyttäjätynnys != käyttäjä or salasana != salasana) and yritys <5:
     print(" väärät tiedot on syötetty")
     yritys = yritys+1
     käyttäjä = input("Anna käyttäjätunnuksen: ")

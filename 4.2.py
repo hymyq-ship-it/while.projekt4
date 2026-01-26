@@ -1,5 +1,5 @@
 tuuma = int(input("Anna mitta tuumaksi: "))
 while tuuma >0 :
-    tuuma= tuuma * 2.53
-    print(tuuma)
-    tuuma -= 1
+    senti= tuuma * 2.53
+    print(f"{senti:.2f}cm")
+    tuuma = int(input("Anna mitta tuumaksi: "))
